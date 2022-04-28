@@ -1,0 +1,7 @@
+.cards{
+    background: #263238;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

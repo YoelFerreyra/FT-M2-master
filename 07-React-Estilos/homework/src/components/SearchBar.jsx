@@ -1,6 +1,12 @@
 import React from 'react';
+import sb from './SearchBar.module.css'
 
 export default function SearchBar(props) {
-  // acá va tu código
-  return <div>Search Bar Component</div>
+  
+  return (
+    <div className={sb.searchBar}>
+      <input type="text" />
+
+      <button onClick={()=> props.onSearch("App de clima")}>Agregar</button>
+    </div>)
 };

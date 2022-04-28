@@ -11,7 +11,7 @@ const inputDelete = document.getElementById("inputDelete");
 const success = document.getElementById("success");
 
 //Jquery
-/*
+
 verAmigos.addEventListener("click", ()=>{
     $.get(`http://localhost:5000/amigos`, (data)=>{
         
@@ -38,7 +38,7 @@ search.addEventListener("click", ()=>{
         amigo.appendChild(span);
         console.log(data);
     });
-
+    
 });
 
 eliminar.addEventListener("click", ()=>{
@@ -55,7 +55,7 @@ eliminar.addEventListener("click", ()=>{
     });
     
 });
-*/
+
 verAmigos.addEventListener("click", ()=>{
     axios(`https://pokeapi.co/api/v2/pokemon`)
     .then(function(response){
