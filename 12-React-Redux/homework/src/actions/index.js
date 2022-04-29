@@ -1,8 +1,5 @@
 const key = `apikey=20dac387`;
-const GET_MOVIES = "GET_MOVIES";
-const GET_MOVIE_DETAIL = "GET_MOVIE_DETAIL";
-const ADD_MOVIE_FAVOURITE = "ADD_MOVIE_FAVOURITE";
-const REMOVE_MOVIE_FAVORITE = "REMOVE_MOVIE_FAVORITE"
+import {SEARCH_MOVIES} from './actionTypes';
 
 
 export function getMovies(titulo) {
