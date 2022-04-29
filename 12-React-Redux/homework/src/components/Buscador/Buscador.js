@@ -43,6 +43,6 @@ export class Buscador extends Component {
       </div>
     );
   }
+  
 }
 
-export default Buscador;
